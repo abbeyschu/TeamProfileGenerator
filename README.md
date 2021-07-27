@@ -16,11 +16,15 @@ node index.js
   
   ## Demonstration
 
-  Command-line demo:
+Command-line demo:
   
- ![Video of walkthrough](assets/demo.mp4)
+ ![Video of walkthrough](/assets/terminalDemo.gif)
 
- End result:
+Full length demo video:
+https://youtu.be/tIDCNWinrKU
+
+
+End result:
 
  ![screenshot of end result](assets/example.png)
   
