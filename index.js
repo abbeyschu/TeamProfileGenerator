@@ -190,7 +190,7 @@ function generateEngineer(data){
         <p id="role">Engineer</p>
         <p id="item"><b>ID# </b> ${data.id} </p>
         <p id="item"><b>Email: </b><a href="mailto:${data.email}">${data.email}</a></p>
-        <p id="item"><b>GitHub: </b><a href="https://github.com/${data.github}" ${data.github}</a></p>
+        <p id="item"><b>GitHub: </b><a href="https://github.com/${data.github}">${data.github}</a></p>
     </section>
   `
   fs.appendFile("./dist/team.html",generatedCard,(err) => {
