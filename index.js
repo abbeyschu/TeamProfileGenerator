@@ -172,7 +172,7 @@ function generateManager(data){
         <h2>${data.name}</h2>
         <p id="role">Manager</p>
         <p id="item"><b>ID# </b> ${data.id} </p>
-        <p id="item"><b>Email: </b>${data.email}</p>
+        <p id="item"><b>Email: </b><a href="mailto:${data.email}">${data.email}</a></p>
         <p id="item"><b>Office Number: </b>${data.officeNumber}</p>
     </section>
   `
@@ -189,8 +189,8 @@ function generateEngineer(data){
         <h2>${data.name}</h2>
         <p id="role">Engineer</p>
         <p id="item"><b>ID# </b> ${data.id} </p>
-        <p id="item"><b>Email: </b>${data.email}</p>
-        <p id="item"><b>GitHub: </b> ${data.github}</p>
+        <p id="item"><b>Email: </b><a href="mailto:${data.email}">${data.email}</a></p>
+        <p id="item"><b>GitHub: </b><a href="https://github.com/${data.github}" ${data.github}</a></p>
     </section>
   `
   fs.appendFile("./dist/team.html",generatedCard,(err) => {
@@ -206,7 +206,7 @@ function generateIntern(data){
         <h2>${data.name}</h2>
         <p id="role">Intern</p>
         <p id="item"><b>ID# </b>${data.id} </p>
-        <p id="item"><b>Email: </b>${data.email}</p>
+        <p id="item"><b>Email: </b><a href="mailto:${data.email}">${data.email}</a></p>
         <p id="item"><b>School: </b>${data.school}</p>
     </section>
   `
