@@ -18,11 +18,11 @@ node index.js
 
   Command-line demo:
   
- ![Video of walkthrough](assets/terminalDemo.gif)
+ ![Video of walkthrough](assets/demo.mp4)
 
  End result:
 
- ![Video of end result](assets/finalHTML.png)
+ ![screenshot of end result](assets/example.png)
   
   
   ## License
